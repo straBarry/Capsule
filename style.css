@@ -1,0 +1,54 @@
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: minmax(min-content, 200px) 1fr;
+	grid-template-areas: 
+  
+  "nav main"
+  "footer footer";
+	font-family: system-ui, sans-serif;
+	font-size: 1.5em;
+}
+
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav {
+	grid-area: nav;
+	background: rgb(0, 0, 0);
+	padding-top: 1em;
+}
+
+nav ul {
+	max-width: 200px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul>ul {
+	margin-left: 1em;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+	color: rgb(150, 203, 230);
+	text-decoration: underline;
+}
