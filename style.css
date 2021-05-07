@@ -33,11 +33,11 @@ nav ul {
 	max-width: 200px;
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding:0.5em;
 }
 
 nav ul>ul {
-	margin-left: 1em;
+	margin-left: 0.3em;
 }
 
 nav ul li a {
@@ -49,6 +49,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: rgb(150, 203, 230);
-	text-decoration: underline;
+  background-color: white;
+  color: black;
 }
